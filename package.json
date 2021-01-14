@@ -4,7 +4,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "dep-mobile": "^1.1.55",
+    "dep-mobile": "latest",
     "react": "^16.12.0"
   },
   "main": "template.json",
