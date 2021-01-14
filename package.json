@@ -3,9 +3,15 @@
   "version": "0.1.2",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "@babel/polyfill": "^7.12.1",
     "dep-mobile": "latest",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.2.0"
   },
   "main": "template.json",
   "files": [
@@ -14,17 +20,14 @@
   ],
   "description": "",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
+    "@testing-library/dom": "^7.21.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "babel-plugin-import": "^1.13.3",
-    "customize-cra": "^1.0.0",
-    "less": "^4.1.0",
+    "less": "4.1.0",
     "less-loader": "^7.2.1",
+    "customize-cra": "^1.0.0",
     "react-scripts": "4.0.1",
     "react-app-rewired": "^2.1.8",
     "source-map-explorer": "^2.5.2",
