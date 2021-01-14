@@ -1,20 +1,11 @@
 {
   "name": "cra-template-yyjz-mfee",
   "version": "0.1.0",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "antd-mobile": "^2.3.4",
     "dep-mobile": "^1.1.55",
-    "moment": "^2.29.1",
-    "rc-form": "^2.4.12",
-    "rc-table": "^7.12.3",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "source-map-explorer": "^2.5.2",
-    "typescript": "^4.1.3"
+    "react": "^16.12.0"
   },
   "main": "template.json",
   "files": [
@@ -34,7 +25,10 @@
     "customize-cra": "^1.0.0",
     "less": "^4.1.0",
     "less-loader": "^7.2.1",
-    "react-app-rewired": "^2.1.8"
+    "react-scripts": "4.0.1",
+    "react-app-rewired": "^2.1.8",
+    "source-map-explorer": "^2.5.2",
+    "typescript": "^4.1.3"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -42,7 +36,7 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "clean-files": "rm -rf ./template/public ./template/src && rm -f ./template/.eslintignore ./template/.eslintrc ./template/.prettierrc ./template/README.md ./template/README_CRA.md ./template/tsconfig.json ./template/tsconfig.eslint.json",
-    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp .eslintignore .eslintrc .prettierrc tsconfig.json tsconfig.eslint.json README.md README_CRA.md template/",
+    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp .eslintignore .eslintrc jsconfig.json config-overrides.js .env.development.local .env.production.local  README.md template/",
     "prepublishOnly": "yarn clean-files && yarn copy-files"
   },
   "eslintConfig": {
